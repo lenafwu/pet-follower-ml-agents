@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1744073598",
+        "python_version": "3.10.12 (main, Mar 22 2025, 22:00:24) [Clang 16.0.0 (clang-1600.0.26.6)]",
+        "command_line_arguments": "/Users/helenwu/.pyenv/versions/3.10.12/bin/mlagents-learn Assets/petfollower_config.yaml --run-id=petfollower19",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1744073659"
+    },
+    "total": 61.14855220797472,
+    "count": 1,
+    "self": 0.005428915843367577,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01905112504027784,
+            "count": 1,
+            "self": 0.01905112504027784
+        },
+        "TrainerController.start_learning": {
+            "total": 61.12407216709107,
+            "count": 1,
+            "self": 0.00015400000847876072,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.123766124947,
+                    "count": 1,
+                    "self": 61.123766124947
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00015204213559627533,
+                    "count": 1,
+                    "self": 0.00015204213559627533
+                }
+            }
+        }
+    }
+}

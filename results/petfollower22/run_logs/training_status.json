@@ -1,0 +1,29 @@
+{
+    "PetFollower": {
+        "checkpoints": [
+            {
+                "steps": 9516,
+                "file_path": "results/petfollower22/PetFollower/PetFollower-9516.onnx",
+                "reward": null,
+                "creation_time": 1744074546.1197271,
+                "auxillary_file_paths": [
+                    "results/petfollower22/PetFollower/PetFollower-9516.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9516,
+            "file_path": "results/petfollower22/PetFollower.onnx",
+            "reward": null,
+            "creation_time": 1744074546.1197271,
+            "auxillary_file_paths": [
+                "results/petfollower22/PetFollower/PetFollower-9516.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.6.0"
+    }
+}

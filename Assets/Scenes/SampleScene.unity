@@ -658,14 +658,15 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   target: {fileID: 1873953173}
-  moveSpeed: 2
+  moveSpeed: 3
   rotateSpeed: 200
-  maxSpeed: 3
-  distanceRewardMultiplier: 3
-  facingRewardMultiplier: 0.1
+  maxSpeed: 5
+  facingRewardMultiplier: 0.2
+  movingTowardRewardMultiplier: 1
   reachingReward: 5
   fallingPenalty: -1
-  maxTargetDistance: 10
+  rotationPenaltyMultiplier: 0.005
+  movementBonus: 0.05
 --- !u!114 &1495327852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,7 +680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 8
+    VectorObservationSize: 11
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
